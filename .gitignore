@@ -1,6 +1,9 @@
 build/
+dist/
 .vscode/
 *.fap
+*.elf
 .DS_Store
 __pycache__/
 *.pyc
+.ufbt/
