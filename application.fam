@@ -1,0 +1,18 @@
+App(
+    appid="philco_ac",
+    name="Philco AC",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="philco_ac_app",
+    requires=[
+        "storage",
+        "gui",
+        "infrared",
+    ],
+    stack_size=2 * 1024,
+    fap_category="Infrared",
+    fap_icon="philco_ac.png",
+    fap_icon_assets="assets",
+    fap_author="tarikbc",
+    fap_version="1.0",
+    fap_description="Philco AC IR remote control",
+)
