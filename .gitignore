@@ -1,0 +1,6 @@
+build/
+.vscode/
+*.fap
+.DS_Store
+__pycache__/
+*.pyc
