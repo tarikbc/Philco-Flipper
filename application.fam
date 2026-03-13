@@ -1,6 +1,6 @@
 App(
     appid="philco_ac",
-    name="Philco AC",
+    name="Philco AC Remote",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="philco_ac_app",
     requires=[
